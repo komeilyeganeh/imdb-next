@@ -4,6 +4,7 @@ import "./globals.css";
 import { HeaderSection } from "@/components/Header";
 import { Provider } from "./Provider";
 import { Navbar } from "@/components/Navbar";
+import { SearchBox } from "@/components/searchBox";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <Provider>
           <HeaderSection />
           <Navbar />
+          <SearchBox />
           {children}
         </Provider>
       </body>
