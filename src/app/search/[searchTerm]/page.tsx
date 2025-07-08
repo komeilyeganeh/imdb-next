@@ -16,7 +16,6 @@ export default async function SearchPage({
     throw new Error("Failed to fetch search results");
   }
   const data = await res.json();
-  console.log(data);
   
   return data && <Movies results={data.results} />;
 }
