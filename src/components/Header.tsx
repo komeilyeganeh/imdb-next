@@ -1,8 +1,9 @@
 import { FC } from "react";
 import { MenuItem } from "./MenuItem";
 import { AiFillHome } from "react-icons/ai";
-import { BsFillInfoCircleFill } from "react-icons/bs"
+import { BsFillInfoCircleFill } from "react-icons/bs";
 import { Logo } from "./Logo";
+import { ThemeSwitcher } from "./ThemeSwitcher";
 
 export const HeaderSection: FC = () => {
   return (
@@ -11,7 +12,8 @@ export const HeaderSection: FC = () => {
         <MenuItem title="home" href="/" Icon={AiFillHome} />
         <MenuItem title="about" href="/about" Icon={BsFillInfoCircleFill} />
       </div>
-      <div>
+      <div className="flex items-center gap-6">
+        <ThemeSwitcher />
         <Logo />
       </div>
     </header>
