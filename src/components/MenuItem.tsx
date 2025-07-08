@@ -1,4 +1,4 @@
-import { MenuItemType } from "@/types/components/MenuItem.type";
+import { MenuItemType } from "@/types/components/menu-item.type";
 import Link from "next/link";
 import { FC } from "react";
 

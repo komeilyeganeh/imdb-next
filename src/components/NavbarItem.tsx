@@ -1,5 +1,5 @@
 "use client";
-import { NavbarItemType } from "@/types/components/NavbarItem.type";
+import { NavbarItemType } from "@/types/components/navbar-item.type";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { FC } from "react";
